@@ -1,0 +1,36 @@
+{
+  "name": "auto-unit-test-testing",
+  "version": "1.0.0",
+  "description": "karma + mocha + chai.js + phantomjs + istanbul",
+  "main": "./srcindex.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BboyAwey/auto-unit-test-testing.git"
+  },
+  "author": "awey.chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BboyAwey/auto-unit-test-testing/issues"
+  },
+  "homepage": "https://github.com/BboyAwey/auto-unit-test-testing#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-istanbul": "^2.0.1",
+    "babel-preset-es2015": "^6.14.0",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-webpack": "^1.8.0",
+    "mocha": "^3.0.2",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "vue": "^1.0.26"
+  }
+}
