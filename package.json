@@ -1,0 +1,29 @@
+{
+  "name": "auto-unit-test-testing",
+  "version": "1.0.0",
+  "description": "karma + mocha + should.js + phantomjs + istanbul",
+  "main": "./srcindex.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BboyAwey/auto-unit-test-testing.git"
+  },
+  "author": "awey.chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BboyAwey/auto-unit-test-testing/issues"
+  },
+  "homepage": "https://github.com/BboyAwey/auto-unit-test-testing#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^1.3.0",
+    "karma-mocha": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "vue": "^1.0.26"
+  }
+}
