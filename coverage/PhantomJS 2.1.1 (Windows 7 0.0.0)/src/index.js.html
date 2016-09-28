@@ -20,9 +20,9 @@
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">100% </span>
+        <span class="strong">0% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>14/14</span>
+        <span class='fraction'>0/14</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
@@ -30,18 +30,18 @@
         <span class='fraction'>0/0</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">100% </span>
+        <span class="strong">0% </span>
         <span class="quiet">Functions</span>
-        <span class='fraction'>5/5</span>
+        <span class='fraction'>0/5</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">100% </span>
+        <span class="strong">0% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>14/14</span>
+        <span class='fraction'>0/14</span>
       </div>
     </div>
   </div>
-  <div class='status-line high'></div>
+  <div class='status-line low'></div>
 <pre><table class="coverage">
 <tr><td class="line-count quiet">1
 2
@@ -74,75 +74,78 @@
 29
 30
 31
-32</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
+32
+33</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">7×</span>
-<span class="cline-any cline-yes">7×</span>
-<span class="cline-any cline-yes">7×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">function isNum (num) {
-  return typeof num === 'number'
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">function isNum (num) <span class="fstat-no" title="function not covered" >{</span>
+<span class="cstat-no" title="statement not covered" >  return typeof num === 'number'</span>
 }
-function isString (str) {
-  return typeof str === 'string'
+function isString (str) <span class="fstat-no" title="function not covered" >{</span>
+<span class="cstat-no" title="statement not covered" >  return typeof str === 'string'</span>
 }
-function binary (decimalismNum) {
+function binary (decimalismNum) <span class="fstat-no" title="function not covered" >{</span>
   // 十进制转二进制
-  let tempNum = Number(decimalismNum)
-  let res = []
-  while(tempNum &gt;= 1) {
-    let remainder = tempNum % 2
-    res.unshift(remainder)
-    tempNum = parseInt(tempNum / 2)
+  let tempNum = <span class="cstat-no" title="statement not covered" >Number(decimalismNum)</span>
+  let res = <span class="cstat-no" title="statement not covered" >[]</span>
+<span class="cstat-no" title="statement not covered" >  while(tempNum &gt;= 1) {</span>
+    let remainder = <span class="cstat-no" title="statement not covered" >tempNum % 2</span>
+<span class="cstat-no" title="statement not covered" >    res.unshift(remainder)</span>
+<span class="cstat-no" title="statement not covered" >    tempNum = parseInt(tempNum / 2)</span>
   }
-  return String(res.join(''))
+<span class="cstat-no" title="statement not covered" >  return String(res.join(''))</span>
 }
-function decimalism (binaryNum) {
+function decimalism (binaryNum) <span class="fstat-no" title="function not covered" >{</span>
   // 二进制转十进制
-  let tempStr = String(binaryNum)
-  let res = 0
-  tempStr.split('').forEach((e, i) =&gt; {
-    res += e * window.Math.pow(2, tempStr.length-i-1)
+  let tempStr = <span class="cstat-no" title="statement not covered" >String(binaryNum)</span>
+  let res = <span class="cstat-no" title="statement not covered" >0</span>
+<span class="cstat-no" title="statement not covered" >  tempStr.split('').forEach((e, i) =&gt; <span class="fstat-no" title="function not covered" >{</span></span>
+<span class="cstat-no" title="statement not covered" >    res += e * window.Math.pow(2, tempStr.length-i-1)</span>
   })
-  return res
+<span class="cstat-no" title="statement not covered" >  return res</span>
 }
 export default {
   isNum,
   isString,
   binary,
-  decimalism,
-}</pre></td></tr>
+  decimalism
+}
+&nbsp;</pre></td></tr>
 </table></pre>
 <div class='push'></div><!-- for sticky footer -->
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Wed Sep 28 2016 11:43:31 GMT+0800 (中国标准时间)
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Wed Sep 28 2016 13:27:59 GMT+0800 (中国标准时间)
 </div>
 </div>
 <script src="../prettify.js"></script>

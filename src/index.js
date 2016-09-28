@@ -1,9 +1,11 @@
 function isNum (num) {
   return typeof num === 'number'
 }
+
 function isString (str) {
   return typeof str === 'string'
 }
+
 function binary (decimalismNum) {
   // 十进制转二进制
   let tempNum = Number(decimalismNum)
@@ -15,6 +17,7 @@ function binary (decimalismNum) {
   }
   return String(res.join(''))
 }
+
 function decimalism (binaryNum) {
   // 二进制转十进制
   let tempStr = String(binaryNum)
@@ -24,9 +27,10 @@ function decimalism (binaryNum) {
   })
   return res
 }
+
 export default {
   isNum,
   isString,
   binary,
-  decimalism,
+  decimalism
 }

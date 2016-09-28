@@ -1,2 +1,2 @@
 # auto-unit-test-testing
-karma + mocha + should.js + phantomjs + istanbul
+karma + mocha + chai.js + phantomjs + karma-coverage + webpack + babel
